@@ -1,0 +1,18 @@
+	*{margin: 0px;padding: 0px;}
+	#music_box{width: 500px;height: 300px;background:url(../images/img1.jpg) no-repeat;margin: 100px auto;position: relative;}
+	#control{width: 480px;height: 30px;padding:10px;background: yellow;position: absolute;bottom: -50px;}
+	#control #play{float: left;height: 30px;line-height: 30px;}
+	#control #play a{text-decoration: none;color: #333;font-size: 30px;}
+	#control #progress{float: left;height: 10px;width: 250px;background: blue;margin: 13px 15px;position: relative;border-radius: 10px;}
+	#control #progress .bg{height: 10px;width: 10px;display: block;background: red;border-radius: 10px;}
+	#control #progress .drag{position: absolute;width: 15px;height: 15px;background: green;top: -3px;border-radius: 50%;left: 0px;}
+	#control #voice_ico{float: left;height: 30px;line-height: 30px;box-sizing:border-box;padding-top:3px;}
+	#control #voice_ico a{text-decoration: none;color: #333;font-size: 20px;}
+	#control #voice_p {float: left;height: 10px;width: 60px;background: blue;margin: 13px 3px;position: relative;border-radius: 10px;}
+	#control #voice_p .bg_v{height: 10px;width: 53px;display: block;background: red;border-radius: 10px;}
+	#control #voice_p .drag_v{position: absolute;width: 10px;height: 10px;background: green;top: 0px;border-radius: 50%;left: 50px;}
+	#control #timer {font: 5px '微软雅黑';position: absolute;top: 5px;right: 120px;}
+	#lyric {width: 500px;height: 300px;background: rgba(0,0,0,0.5);overflow: hidden;position: relative;}
+	#lyric #lyric_text{width: 500px;position: absolute;top: 100px;}
+	#lyric #lyric_text p{text-align: center;color:#fff;height: 20px;}
+	#lyric #lyric_text .active{color: red;}
